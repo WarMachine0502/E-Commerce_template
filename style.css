@@ -18,37 +18,37 @@ header{
     display: flex;
 }
 
-.logo{
+.Name{
     font-size: 3rem;
     color: #333;
     font-weight: bolder;
 }
 
-.navbar a{
+.nav a{
     font-size: 2rem;
     padding: 0 1.5rem;
     color: #666;
 }
 
-.logo:hover{
+.Name:hover{
     color:blue;
 }
 
-.navbar a:hover{
+.nav a:hover{
     color:blue;
 }
 
-.icons a{
+.awesome_icons a{
     font-size: 2.5rem;
     color: #333;
     margin-left: 1.5rem;
 }
 
-.icons a:hover{
+.awesome_icons a:hover{
     color:blue;
 }
 
-#toggler{
+#Hamburger{
     display: none;
 }
 
@@ -77,7 +77,7 @@ header{
         display: block;
     }
 
-    .navbar{
+    .nav{
         position: absolute;
         top: 100%;
         left: 0;
@@ -87,11 +87,11 @@ header{
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
     
-    #toggler:checked ~ .navbar{
+    #Hamburger:checked ~ .nav{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 
-    .navbar a{
+    .nav a{
         margin: 1.5rem;
         padding: 1.5rem;
         background: #fff;
