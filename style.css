@@ -6,7 +6,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    transition: .2s linear;
+    transition: .1s ease-in-out;
 }
 
 html{
@@ -24,32 +24,13 @@ section{
     padding: 2rem 9%;
 }
 
-.heading{
-    text-align: center;
+.h{
     font-size: 4rem;
-    color: #333;
+    text-align: center;
     padding:1rem;
-    margin: 8rem 0 2rem 0;
+    margin: 12rem 0 2rem 0;
+    color: #333;
     background: rgba(29, 69, 245, 0.05);
-}
-
-.heading span{
-    color:#ff0000;
-}
-
-.btn{
-    display: inline-block;
-    margin-top: 1rem;
-    border-radius: 5rem;
-    background: #333;
-    color: #fff;
-    padding: .9rem 3.5rem;
-    cursor: pointer;
-    font-size: 1.7rem;
-}
-
-.btn:hover{
-    background:#ff0000;
 }
 
 header{
@@ -57,28 +38,29 @@ header{
     top:0;
     left:0;
     right:0;
-    background: #fff;
-    padding: 2rem 9%;
+    padding: 2rem 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    background: whitesmoke;
 }
 
-header .logo{
+header .Name{
     font-size: 3rem;
-    color: #333;
     font-weight: bolder;
+    color: #333;
 }
 
-header .logo span{
+header .Name span{
+    font-size: 6rem;
     color:#ff0000;
 }
 
 header .navbar a{
     font-size: 2rem;
-    padding: 0 1.5rem;
+    padding: 0 1rem;
     color: #666;
 }
 
@@ -86,198 +68,157 @@ header .navbar a:hover{
     color:#ff0000;
 }
 
-
-
-header #toggler{
+header #name_press{
     display:none;
 }
 
 header .fa-bars{
     font-size: 3rem;
-    color: #333;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
     cursor: pointer;
     border: .1rem solid rgba(0, 0, 0, .3);
     display: none;
-}
-
-.home{
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-
-.home .content{
-    max-width: 50rem;
-}
-
-.home .content h3{
-    font-size: 6rem;
     color: #333;
 }
 
-.home .content h3:hover{
-    color: #ff0000;
-}
-
-
-.home .content p{
-    font-size: 2rem;
-    color:#ff0000;
-    padding: 1rem 0;
-    line-height: 1.5;
-}
-
-.home .content p:hover{
-    color: black;
-}
-
-.home img{
-    max-width: 60rem;
-    margin:0;
-    padding:0;
-}
-
-.products .box-container{
+.lp .products{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
-.products .box-container .box{
+.lp .products .box{
+    position: relative;
     flex: 1 1 30rem;
-    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .2);
     border-radius: .5rem;
     border: .1rem solid rgba(0, 0, 0, .1);
-    position: relative;
 }
 
-.products .box-container .box .discount{
+.lp .products .box .discount{
+    font-size: 2rem;
     position: absolute;
     top: 1rem ;
     left: 1rem;
     padding: .7rem 1rem;
-    font-size: 2rem;
-    color: #ff0000;
-    background: rgba(255, 51, 153, .05);
     z-index: 1;
     border-radius: .5rem;
+    color: #ff0000;
+    background: rgba(255, 51, 153, .05);
 
 }
 
-.products .box-container .box .image{
+.lp .products .box .image{
     position: relative;
     text-align: center;
     padding-top: 2rem;
     overflow: hidden;
 }
 
-.products .box-container .box .image img{
+.lp .products .box .image img{
     height: 25rem;
 
 }
 
-.products .box-container .box:hover .image img{
-    transform:scale(1.1);
+.lp .products .box:hover .image img{
+    transform:scale(1.18);
     
 }
 
-.products .box-container .box .image .icons{
+.lp .products .box .image .icons{
     position: absolute;
-    bottom: -7rem;
     left: 0;
     right: 0;
+    bottom: -7rem;
     display: flex;
 }
 
-.products .box-container .box:hover .image .icons{
+.lp .products .box:hover .image .icons{
     bottom:0;
 }
 
-.products .box-container .box .image .icons a{
+.lp .products .box .image .icons a{
+    font-size: 2rem;
     height: 5rem;
     line-height: 5rem;
-    font-size: 2rem;
     width: 50%;
     background: #ff0000;
     color: #fff;
 }
 
-.products .box-container .box .image .icons .cart-btn{
+.lp .products .box .image .icons .cart-btn{
     border-left: .1rem solid #fff7;
     border-right: .1rem solid #fff7;
     width: 100%;
 }
 
-.products .box-container .box .image .icons a:hover{
+.lp .products .box .image .icons a:hover{
     background: #333;
 }
 
-.products .box-container .box .content{
+.lp .products .box .content{
     padding: 2rem;
     text-align: center;
 }
 
-.products .box-container .box .content .price{
+.lp .products .box .content .price{
     font-size: 2.5rem;
-    color: #ff0000;
     font-weight: bolder;
     padding-top: 1rem;
+    color: #ff0000;
 }
 
-.products .box-container .box .content .price span{
+.lp .products .box .content .price span{
     font-size: 1.5rem;
-    color: #999;
     font-weight: lighter;
     text-decoration: line-through;
+    color: #999;
 }
 
-.footer .box-container{
+.footer .info{
     display: flex;
-    border-top: .1rem solid rgba(0, 0, 0, .1);
     text-align: center;
     flex-wrap: wrap;
     gap: 1.5rem;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
 
 }
 
-.footer .box-container .box{
+.footer .info .box{
     flex: 1 1 25rem;
 }
 
-.footer .box-container .box h3{
-    color: #333;
+.footer .info .box h3{
     font-size: 2.5rem;
     padding: 1rem 0;
+    color: #333;
 }
 
-.footer .box-container .box a{
-    display: block;
-    color: #666;
+.footer .info .box a{
     font-size: 1.5rem;
+    display: block;
     padding: 1rem 0;
+    color: #666;
 }
 
-.footer .box-container .box a:hover{
-    color: #ff0000;
+.footer .info .box a:hover{
     text-decoration: underline;
+    color: #ff0000;
 }
 
-.footer .box-container .box img{
+.footer .info .box img{
     margin-top: 1rem;
 }
 
 .footer .credit{
+    font-size: 2rem;
     text-align: center;
     padding: 1.5rem;
     margin-top: 1.5rem;
     padding-top: 2.5rem;
-    font-size: 2rem;
-    color: #333;
     border-top: .1rem solid rgba(0, 0, 0, .1);
+    color: #333;
 }
 
 .footer .credit span{
@@ -286,21 +227,21 @@ header .fa-bars{
 .form .formbox{
     font-size: 1.5rem;
     width: 350px;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-    background: whitesmoke;
     padding: 20px;
     margin: 2% auto 0;
     text-align: center;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+    background: whitesmoke;
 }
 
 .form .formbox2{
     font-size: 1.5rem;
     width: 350px;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-    background: whitesmoke;
     padding: 30px;
     margin: 2% auto 0;
     text-align: center;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+    background: whitesmoke;
 }
 
 .form .tb{
@@ -310,19 +251,18 @@ header .fa-bars{
     width: 92%;
     border: 1px solid black;
     outline:none;
-
 }
 
 .form button{
-    color: grey;
+    font-size: 15px;
     width:100%;
     padding: 10px;
     border-radius: 20px;
-    font-size: 15px;
     margin: 10px 0;
     border: none;
     outline:none;
     cursor:pointer;
+    color: grey;
 }
 
 .form .b1{
@@ -330,10 +270,10 @@ header .fa-bars{
 }
 
 .form .b1:hover{
-    background-color: #ff0000;
-    color:white;
     transition: 0.2s;
     transform: translateY(-4px);
+    color:white;
+    background-color: #ff0000;
 }
 
 .form hr{
@@ -342,9 +282,9 @@ header .fa-bars{
 }
  
 .form .or{
-    background: #fff;
     width:30px;
     margin: -19px auto 10px;
+    background: #fff;
 }
 
 .form img{
@@ -355,8 +295,83 @@ header .fa-bars{
     color:#ff0000;
 }
 
+.cart .cart-page{
+    margin: 2rem auto;
+    font-size: 2rem;
+}
+
+.cart .cart-page table{
+    width: 100%;
+}
+
+.cart .cart-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
 
 
+.cart th{
+    text-align: center;
+    padding: 5px;
+    font-weight:bolder;
+    color: #fff;
+    background: #ff0000;
+}
+
+.cart td{
+    padding: 2rem ;
+}
+
+.cart td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+.cart td a{
+    font-size: 2rem;
+    color: #ff0000;
+}
+
+.cart td p:hover{
+    color: #ff0000;
+}
+
+.cart td a:hover{
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+.cart td img{
+    width: 200px;
+    margin-right: 10px;
+}
+
+.cart td img:hover{
+    transform:scale(1.2);
+}
+
+.cart .total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart .total-price table{
+    width:100%;
+    max-width: 400px;
+    border-top: 3px solid #ff0000;
+}
+
+.cart td:last-child{
+    text-align: right;
+}
+
+.cart td:last-child:hover{
+    text-decoration: underline;
+    color: #ff0000;
+}
 
 
 @media (max-width:991px){
@@ -386,28 +401,20 @@ header .fa-bars{
         top:100%;
         left:0;
         right:0;
-        background: #eee;
-        border-top: .1rem solid rgba(0, 0, 0, .1);
         clip-path: polygon(0 0, 100% 0, 100% 0,0 0);
+        border-top: .1rem solid rgba(0, 0, 0, .1);
+        background: #eee;
     }
 
-    header #toggler:checked ~ .navbar{
+    header #name_press:checked ~ .navbar{
         clip-path: polygon(0 0, 100% 0, 100% 100%,0 100%);
     }
     header .navbar a{
         margin: 1.5rem;
         padding: 1.5rem;
-        background: #fff;
         border:.1rem solid rgba(0, 0, 0, .1);
         display: block;
-    }
-
-    .home .content h3{
-        font-size: 5rem;
-    }
-
-    .home .content span{
-        font-size: 2.5rem;
+        background: #fff;
     }
 
     .icons-container .icons h3{
@@ -417,6 +424,10 @@ header .fa-bars{
     .icons-container .icons span{
         font-size: 1.7rem;
     }
+
+    .cart .cart-info p{
+        display: none;
+    }
 }
 
 @media (max-width:450px){
@@ -425,8 +436,7 @@ header .fa-bars{
         font-size: 50%;
     }
 
-    .heading{
+    .h{
         font-size: 3rem;
-
     }
 }   
