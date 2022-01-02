@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,158 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Landing Page</title>
+    <title>Home Page</title>
 </head>
+
 <body>
+
     <header>
-        <input type="checkbox" id="Hamburger">
-        <label for="Hamburger" class="fas fa-bars"></label>
-        <a href="" class='Name'>Bazaar</a>
-        <nav class="nav">
-            <a href="">Home</a>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="index.html" class="logo"><span>Bazaar</a></span></a>
+
+        <nav class="navbar">
+            <a href="index.html"><i class="fa fa-home"></i> Home</a>
+            <a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a>
+            <a href="signin.html"><i class="fa fa-user"></i> Sign-In</a>
         </nav>
-        <div class="awesome_icons">
-            <a href="" class="fas fa-shopping-cart"></a>
-            <a href="" class="fas fa-user"></a>
-        </div>
+
     </header>
+
+
+
+
+    <section class="products" id="products">
+        <h1 class="heading">Latest <span>Products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/chromebooks.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>generic laptop</h3>
+                    <div class="price">₹25,000</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/smartwatches.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>generic watch</h3>
+                    <div class="price">₹4000</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/speaker.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>generic speaker</h3>
+                    <div class="price">₹8000</div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">Flat 20% off</span>
+                <div class="image">
+                    <img src="images/tshirt.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>generic t-shirt</h3>
+                    <div class="price">₹800 <span>₹1000</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/shoes.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>generic shoes</h3>
+                    <div class="price">₹1000</div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <span class="discount">Flat 15% off</span>
+                <div class="image">
+                    <img src="images/jacket.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>generic jacket</h3>
+                    <div class="price">₹2210 <span>₹2600</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/mobile.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>generic mobile</h3>
+                    <div class="price">₹45,000</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/jewellery.jpg" alt="">
+                    <div class="icons">
+                        <a href="" class="cart-btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>generic jewellery</h3>
+                    <div class="price">₹33,000</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Shortcuts</h3>
+                <a href="index.html">Home</a>
+                <a href="cart.html">Cart</a>
+                <a href="signin.html">Sign-In</a>
+            </div>
+
+
+
+            <div class="box">
+                <h3>Contact Us</h3>
+                <a href="">+91-99999 99999</a>
+                <a href="">customer.care@bazaar.com</a>
+            </div>
+        </div>
+        <div class="credit"> &lt/&gt with <i class="fas fa-heart"></i> by <span>WarMachine0502</span> </div>
+    </section>
 </body>
+
 </html>

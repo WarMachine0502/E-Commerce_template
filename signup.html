@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <header>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="#" class="logo"><span>Bazaar</span></a>
+
+        <nav class="navbar">
+            <a href="index.html"><i class="fa fa-home"></i> Home</a>
+            <a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a>
+            <a href="signin.html"><i class="fa fa-user"></i> Sign-In</a>
+        </nav>
+    </header>
+
+    <section class="form">
+        <h1 class="heading" id="heading_2">Sign-In</h1>
+        <div class="formbox2">
+            <img src="images/userIcon.png" alt="User Icon">
+            <form>
+                <label>E-mail:</label>
+                <input type="email" name="email" class="tb">
+                <label>Name:</label>
+                <input type="text" name="name" class="tb">
+                <label>Date of Birth:</label>
+                <input type="date" name="birthday"><br><br>
+                <label>Gender:</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+                <label>Enter UserName:</label>
+                <input type="text" name="uname" class="tb">
+                <label>Enter Password:</label>
+                <input type="password" name="pswd" class="tb">
+                <label>Confirm Password:</label>
+                <input type="password" name="pswd" class="tb">
+                <button type="button" class="b1">Submit</button>
+                <hr>
+                <p class="or">OR</p>
+                <p>Already have an account? <a href="index.html" target="blank"><strong>Sign-In!</strong></a></p>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
