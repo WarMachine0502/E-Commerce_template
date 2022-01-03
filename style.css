@@ -232,76 +232,6 @@ header .fa-bars{
 .footer .credit a:hover{
     color: #ff0000;
 }
-.form .formbox{
-    font-size: 1.5rem;
-    width: 350px;
-    padding: 20px;
-    margin: 2% auto 0;
-    text-align: center;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
-    background: whitesmoke;
-}
-
-.form .formbox2{
-    font-size: 1.5rem;
-    width: 350px;
-    padding: 30px;
-    margin: 2% auto 0;
-    text-align: center;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
-    background: whitesmoke;
-}
-
-.form .tb{
-    border-radius: 10px;
-    padding:10px;
-    margin:5px 0;
-    width: 92%;
-    border: 1px solid black;
-    outline:none;
-}
-
-.form button{
-    font-size: 15px;
-    width:100%;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 10px 0;
-    border: none;
-    outline:none;
-    cursor:pointer;
-    color: grey;
-}
-
-.form .b1{
-    color:#ff0000;
-}
-
-.form .b1:hover{
-    transition: 0.2s;
-    transform: translateY(-4px);
-    color:white;
-    background-color: #ff0000;
-}
-
-.form hr{
-    margin-top: 20px;
-    width: 80%;
-}
- 
-.form .or{
-    width:30px;
-    margin: -19px auto 10px;
-    background: #fff;
-}
-
-.form img{
-    width: 70px;
-}
-
-.form a:hover{
-    color:#ff0000;
-}
 
 .cart .structure{
     margin: 2rem auto;
@@ -380,6 +310,79 @@ header .fa-bars{
     text-decoration: underline;
     color: #ff0000;
 }
+
+.form .formbox{
+    font-size: 1.5rem;
+    width: 350px;
+    padding: 20px;
+    margin: 2% auto 0;
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+    background: whitesmoke;
+}
+
+.form .formbox2{
+    font-size: 1.5rem;
+    width: 350px;
+    padding: 30px;
+    margin: 2% auto 0;
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+    background: whitesmoke;
+}
+
+.form .tb{
+    border-radius: 10px;
+    padding:10px;
+    margin:5px 0;
+    width: 92%;
+    border: 1px solid black;
+    outline:none;
+}
+
+.form button{
+    font-size: 15px;
+    width:100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+    border: none;
+    outline:none;
+    cursor:pointer;
+    color: grey;
+}
+
+.form .b1{
+    color:#ff0000;
+}
+
+.form .b1:hover{
+    transition: 0.2s;
+    transform: translateY(-4px);
+    color:white;
+    background-color: #ff0000;
+}
+
+.form hr{
+    margin-top: 20px;
+    width: 80%;
+}
+ 
+.form .or{
+    width:30px;
+    margin: -19px auto 10px;
+    background: #fff;
+}
+
+.form img{
+    width: 70px;
+}
+
+.form a:hover{
+    color:#ff0000;
+}
+
+
 
 
 @media (max-width:991px){
