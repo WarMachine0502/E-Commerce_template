@@ -295,16 +295,16 @@ header .fa-bars{
     color:#ff0000;
 }
 
-.cart .cart-page{
+.cart .structure{
     margin: 2rem auto;
     font-size: 2rem;
 }
 
-.cart .cart-page table{
+.cart .structure table{
     width: 100%;
 }
 
-.cart .cart-info{
+.cart .cart_products{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -353,12 +353,12 @@ header .fa-bars{
     transform:scale(1.2);
 }
 
-.cart .total-price{
+.cart .price{
     display: flex;
     justify-content: flex-end;
 }
 
-.cart .total-price table{
+.cart .price table{
     width:100%;
     max-width: 400px;
     border-top: 3px solid #ff0000;
@@ -425,7 +425,7 @@ header .fa-bars{
         font-size: 1.7rem;
     }
 
-    .cart .cart-info p{
+    .cart .cart_products p{
         display: none;
     }
 }
