@@ -382,9 +382,6 @@ header .fa-bars{
     color:#ff0000;
 }
 
-
-
-
 @media (max-width:991px){
 
     html{
@@ -451,3 +448,26 @@ header .fa-bars{
         font-size: 3rem;
     }
 }   
+
+@media (max-width:360px){
+
+    html{
+        font-size: 45%;
+    }
+    
+    .h{
+        font-size: 5rem;
+    }
+
+}
+
+@media (max-width:100px){
+
+    html{
+        font-size: 5%;
+    }
+
+    .h{
+        font-size: 1rem;
+    }
+}
