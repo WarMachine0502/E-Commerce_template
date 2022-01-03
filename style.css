@@ -185,6 +185,10 @@ header .fa-bars{
 
 }
 
+.footer .credit a{
+    color:black;
+}
+
 .footer .info .box{
     flex: 1 1 25rem;
 }
@@ -221,7 +225,11 @@ header .fa-bars{
     color: #333;
 }
 
-.footer .credit span{
+.footer .credit span:hover{
+    color: #ff0000;
+}
+
+.footer .credit a:hover{
     color: #ff0000;
 }
 .form .formbox{
