@@ -236,10 +236,13 @@ header .fa-bars{
 .cart .structure{
     margin: 2rem auto;
     font-size: 2rem;
+    overflow-x: hidden;
 }
 
 .cart .structure table{
     width: 100%;
+    table-layout: fixed;
+    align-items: center;
 }
 
 .cart .cart_products{
@@ -258,14 +261,14 @@ header .fa-bars{
 }
 
 .cart td{
-    padding: 2rem ;
+    padding: 2rem;
+    text-align: center;
 }
 
 .cart td input{
-    width: 40px;
+    width: 60px;
     height: 30px;
     padding: 5px;
-
 }
 
 .cart td a{
@@ -435,6 +438,11 @@ header .fa-bars{
     .cart .cart_products p{
         display: none;
     }
+
+    .cart td img{
+        width: 150px;
+        margin-right: 10px;
+    }
 }
 
 @media (max-width:450px){
@@ -445,6 +453,11 @@ header .fa-bars{
 
     .h{
         font-size: 3rem;
+    }
+
+    .cart td img{
+        width: 100px;
+        margin-right: 10px;
     }
 }   
 
@@ -458,6 +471,7 @@ header .fa-bars{
         font-size: 5rem;
     }
 
+
 }
 
 @media (max-width:100px){
@@ -469,4 +483,5 @@ header .fa-bars{
     .h{
         font-size: 1rem;
     }
+    
 }
