@@ -401,12 +401,11 @@ header .fa-bars{
 
 .home .content h3{
     font-size: 6rem;
-    color: #333;
-    background: #ff0000;
+    color: #fff;
 }
 
 .home .content span{
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: #ff0000;
     padding: 1rem 0;
     line-height: 1.5;
@@ -414,7 +413,7 @@ header .fa-bars{
 
 .home .content p{
     font-size: 1.5rem;
-    color: #999;
+    color: #fff;
     padding: 1rem 0;
     line-height: 1.5;
 }
@@ -427,7 +426,7 @@ header .fa-bars{
     color: #fff;
     padding: .9rem 3.5rem;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .home .btn:hover{
