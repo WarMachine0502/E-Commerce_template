@@ -208,6 +208,7 @@ header .fa-bars{
     font-size: 2.5rem;
     padding: 1rem 0;
     color: #333;
+    text-decoration: underline;
 }
 
 .footer .info .box a{
