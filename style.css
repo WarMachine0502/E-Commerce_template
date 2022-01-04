@@ -18,6 +18,8 @@ html{
 
 body{
     background: url("images/background.png");
+    background-size: cover;
+    background-position: center;
 }
 
 section{
@@ -25,6 +27,15 @@ section{
 }
 
 .h{
+    font-size: 4rem;
+    text-align: center;
+    padding:1rem;
+    margin: 1rem 0 2rem 0;
+    color: #333;
+    background: rgba(29, 69, 245, 0.05);
+}
+
+.h2{
     font-size: 4rem;
     text-align: center;
     padding:1rem;
@@ -374,6 +385,57 @@ header .fa-bars{
     color:#ff0000;
 }
 
+/* . */
+.home{
+    display:flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url("images/stock.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    color: #333;
+    background: #ff0000;
+}
+
+.home .content span{
+    font-size: 3.5rem;
+    color: #ff0000;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    color: #999;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.home .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.home .btn:hover{
+    background: #ff0000;
+}
+
+/* . */
+
 @media (max-width:991px){
 
     html{
@@ -386,6 +448,10 @@ header .fa-bars{
 
     section{
         padding: 2rem;
+    }
+
+    .home{
+        background-position: left;
     }
 
 }
@@ -440,7 +506,14 @@ header .fa-bars{
         margin-right: 10px;
     }
 
-    
+    .home .content h3{
+        font-size: 5rem;
+    }
+
+    .home .content span{
+        font-size: 2.5rem;
+    }
+}
 
 @media (max-width:450px){
 
@@ -449,6 +522,10 @@ header .fa-bars{
     }
 
     .h{
+        font-size: 3rem;
+    }
+
+    .h2{
         font-size: 3rem;
     }
 
@@ -473,9 +550,13 @@ header .fa-bars{
         font-size: 5rem;
     }
 
-}
+    .h2{
+        font-size: 5rem;
+    }
 
 }
+
+
 
 @media (max-width:300px){
     .cart td img{
@@ -497,6 +578,10 @@ header .fa-bars{
 
     html{
         font-size: 5%;
+    }
+
+    .h{
+        font-size: 1rem;
     }
 
     .h{
