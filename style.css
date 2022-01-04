@@ -324,16 +324,6 @@ header .fa-bars{
     background: whitesmoke;
 }
 
-.form .formbox2{
-    font-size: 1.5rem;
-    width: 350px;
-    padding: 30px;
-    margin: 2% auto 0;
-    text-align: center;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
-    background: whitesmoke;
-}
-
 .form .tb{
     padding:10px;
     margin:5px 0;
@@ -439,11 +429,18 @@ header .fa-bars{
         display: none;
     }
 
+    .cart td input{
+        width: 40px;
+        height: 20px;
+        padding: 5px;
+    }
+
     .cart td img{
-        width: 150px;
+        width: 115px;
         margin-right: 10px;
     }
-}
+
+    
 
 @media (max-width:450px){
 
@@ -456,8 +453,13 @@ header .fa-bars{
     }
 
     .cart td img{
-        width: 100px;
+        width: 80px;
         margin-right: 10px;
+    }
+    
+    .form .formbox{
+        font-size: 2rem;
+        width: 250px;
     }
 }   
 
@@ -471,7 +473,24 @@ header .fa-bars{
         font-size: 5rem;
     }
 
+}
 
+}
+
+@media (max-width:300px){
+    .cart td img{
+        width: 50px;
+        margin-right: 10px;
+    }
+    .form .formbox{
+        width: 200px;
+    }
+}
+
+@media (max-width:100px){
+    .form .formbox{
+        width: 100px;
+    }
 }
 
 @media (max-width:100px){
@@ -483,5 +502,8 @@ header .fa-bars{
     .h{
         font-size: 1rem;
     }
-    
+
+    .form .formbox{
+        width: 100px;
+    }
 }
