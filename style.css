@@ -62,7 +62,6 @@ header .Name{
     font-size: 6rem;
     font-weight: bolder;
     color: #333;
-    text-decoration: underline;
 }
 
 header .Name span{
