@@ -227,8 +227,12 @@ header .fa-bars{
     color: #666;
 }
 
-.footer .info .box a:hover{
+.footer .info .box span:hover{
     text-decoration: underline;
+}
+
+
+.footer .info .box a:hover{
     color: #ff0000;
 }
 
